@@ -1,0 +1,64 @@
+/* resets */
+body,
+h1 {
+  margin: 0;
+}
+
+header {
+  background-color: #70a48b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+header nav ul {
+  border: 1px solid white;
+  list-style: none;
+  display: flex;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+header nav ul a {
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.accent {
+  background-color: black;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+main {
+  padding: 40px 20px;
+}
+
+.locations {
+  list-style: none;
+  padding: 0px;
+}
+
+.locations li {
+  background-color: #70a48b;
+  color: white;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+.animals {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  width: 100%;
+  margin: 5px;
+  justify-content: space-evenly;
+}
+
+footer {
+  background-color: #70a48b;
+  margin: 10;
+  padding: 5px;
+}
